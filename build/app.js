@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n//\n//\n//\n//\n//\n//\n\nexports.default = {\n    name: 'app'\n};\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/babel-loader/lib??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n//\n//\n//\n//\n//\n//\n//\n//\n\nexports.default = {\n    name: 'app'\n};\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/babel-loader/lib??ref--5-0!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", { attrs: { id: \"app\" } }, [_c(\"router-view\")], 1)\n}\nvar staticRenderFns = []\nrender._withStripped = true\n/* hot reload */\nif (false) { var api; }\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"div\",\n    { attrs: { id: \"app\" } },\n    [\n      _c(\"router-view\"),\n      _vm._v(\" \"),\n      _c(\"div\", [_vm._v(\"test\")]),\n      _vm._v(\" \"),\n      _c(\"a\", { attrs: { href: \"../react/index.html\" } }, [\n        _vm._v(\"Go To React Project\")\n      ])\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n/* hot reload */\nif (false) { var api; }\n\n//# sourceURL=webpack:///./src/App.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -158,7 +158,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"test\" }, [\n      _c(\"div\", { staticClass: \"inner-test\" }, [\n        _vm._v(\"\\n        test\\n        \"),\n        _c(\"img\", {\n          attrs: { src: __webpack_require__(/*! ../../static/img/android-chrome-192x192.png */ \"./static/img/android-chrome-192x192.png\") }\n        })\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n/* hot reload */\nif (false) { var api; }\n\n//# sourceURL=webpack:///./src/components/Home.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"div\", { staticClass: \"test\" }, [\n      _c(\"div\", { staticClass: \"inner-test\" }, [\n        _vm._v(\"\\n        test\\n        \"),\n        _c(\"img\", { attrs: { src: __webpack_require__(/*! ../../static/img/eye.png */ \"./static/img/eye.png\") } })\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n/* hot reload */\nif (false) { var api; }\n\n//# sourceURL=webpack:///./src/components/Home.vue?./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options");
 
 /***/ }),
 
@@ -340,14 +340,14 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 
 /***/ }),
 
-/***/ "./static/img/android-chrome-192x192.png":
-/*!***********************************************!*\
-  !*** ./static/img/android-chrome-192x192.png ***!
-  \***********************************************/
+/***/ "./static/img/eye.png":
+/*!****************************!*\
+  !*** ./static/img/eye.png ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"static/img/android-chrome-192x192.png\";\n\n//# sourceURL=webpack:///./static/img/android-chrome-192x192.png?");
+eval("module.exports = __webpack_require__.p + \"static/img/eye.png\";\n\n//# sourceURL=webpack:///./static/img/eye.png?");
 
 /***/ })
 

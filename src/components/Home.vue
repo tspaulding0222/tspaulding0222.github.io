@@ -2,7 +2,7 @@
     <div class="test">
         <div class="inner-test">
             test
-            <img src="../../static/img/android-chrome-192x192.png"/>
+            <img src="../../static/img/eye.png"/>
         </div>
     </div>
 </template>

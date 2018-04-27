@@ -26,7 +26,7 @@ module.exports = {
             },
             {
                 test: /\.js$/,
-                exclude: [/node_modules/, /react-app/],
+                exclude: [/node_modules/],
                 use: {
                     loader: 'babel-loader',
                     options: {
@@ -36,7 +36,6 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                exclude: /react-app/,
                 use: [
                     'vue-style-loader',
                     'css-loader',
@@ -45,7 +44,6 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                exclude: /react-app/,
                 use: [
                     'style-loader',
                     'css-loader'
@@ -53,7 +51,6 @@ module.exports = {
             },
             {
                 test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
-                exclude: /react-app/,
                 use: [
                     {
                         loader: "file-loader",
@@ -65,7 +62,6 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif|svg)(\?\S*)?$/,
-                exclude: /react-app/,
                 use: [
                     {
                         loader: 'file-loader',

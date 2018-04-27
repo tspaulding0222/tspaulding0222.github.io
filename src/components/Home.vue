@@ -7,6 +7,17 @@
     </div>
 </template>
 
+<script>
+export default {
+    name: 'app',
+    method: {
+        test() {
+            console.log("test");
+        }
+    }
+}
+</script>
+
 <style lang="scss">
     .test {
         .inner-test {

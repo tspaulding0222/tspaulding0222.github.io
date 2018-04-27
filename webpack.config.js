@@ -1,6 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var { VueLoaderPlugin } = require('vue-loader');
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
     entry: './src/main.js',
@@ -78,6 +79,17 @@ module.exports = {
         ]
     },
     plugins : [
-        new VueLoaderPlugin()
-    ]
+        new VueLoaderPlugin(),
+    ],
+    devtool: "eval-source-map"
+}
+
+if(process.env.NODE_ENV == "production") {
+    module.exports.mode = "production";
+    module.exports.devtool = "source-map"
+    module.exports.plugins = (module.exports.plugins || []).concat([
+        new UglifyJsPlugin({
+            sourceMap: true
+        })
+    ]);
 }

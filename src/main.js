@@ -17,10 +17,13 @@ const unsplashAuth = new Unsplash({
 
 const store = new Vuex.Store({
     state: {
-        unsplash: unsplashAuth
+        unsplash: unsplashAuth,
+        currentImage: {}
     },
     mutations: {
-
+        updateCurrentImage(state, image) {
+            state.currentImage = image;
+        }
     }
 })
 

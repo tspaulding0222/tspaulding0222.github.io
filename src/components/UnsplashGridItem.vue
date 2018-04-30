@@ -1,5 +1,5 @@
 <template>
-    <div class="unsplash-grid-item">
+    <div class="unsplash-grid-item" v-on:click="onImgClicked">
         <div class="unsplash-grid-item-img-container">
             <img :src="data.urls.regular">
         </div>
@@ -12,24 +12,25 @@
 <script>
 export default {
     props: ['data'],
-    created: function() {
-        
-    },
     mounted: function() {
-        var that = this;
-        var img = this.$el.querySelector("img");
-        img.onload = function() {
-            if(this.height&& this.width) {
-                that.$el.classList.add("unsplash-grid-item--fadeIn");
-            }
-            else {
-                console.log("Unsplash Grid Item Image Load Error");
-            }
-        }
+        this.onImgLoaded();
     },
-    data: function() {
-        return {
-
+    methods: {
+        onImgLoaded() {
+            var that = this;    
+            var img = this.$el.querySelector("img");
+            img.onload = function() {
+                if(this.height&& this.width) {
+                    that.$el.classList.add("unsplash-grid-item--fadeIn");
+                }
+                else {
+                    console.warn("Unsplash Grid Item Image Load Error");
+                }
+            }
+        },
+        onImgClicked() {
+            this.$store.commit("updateCurrentImage", this.data);
+            this.$router.push({name: "image", params: {data: this.data}});
         }
     }
 }
@@ -42,9 +43,16 @@ export default {
         width: 400px;
         height: 800px;
         margin-bottom: 10px;
-        background: black;
+        margin-left: 5px;
+        margin-right: 5px;
+        background:#4a4a4a;
+        cursor: pointer;
         opacity: 0;
         transition: all .5s ease-in-out;
+
+        img {
+            filter: grayscale(100%);
+        }
     }
 
     .unsplash-grid-item--fadeIn {
@@ -74,6 +82,6 @@ export default {
         font-size: .8em;
         font-weight: 900;
         letter-spacing: 2px;
-        color: white;
+        color: black;
     }
 </style>

@@ -16,8 +16,9 @@ export default new Router(
         },
         {
             path: '/image',
-            name: 'Unsplash Image',
-            component: UnsplashImage
+            name: 'image',
+            component: UnsplashImage,
+            props: true
         }    
     ]
 })

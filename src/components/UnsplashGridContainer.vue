@@ -39,11 +39,11 @@ export default {
 
 <style lang="scss" scoped>
     .unsplash-grid {
-        display: flex;
+        display: inline-flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        align-content: center;
         flex-wrap: wrap;
-        width: 90%;
         margin: 0 auto;
     }
 </style>

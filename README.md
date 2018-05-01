@@ -15,5 +15,3 @@ Free unsplash api used
 ## How to Build
 * npm install
 * npm start or npm run build
-
-

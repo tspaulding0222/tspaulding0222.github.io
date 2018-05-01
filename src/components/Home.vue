@@ -55,9 +55,9 @@ export default {
             display: block;
             margin-left: 7px;
             margin-right: 7px;
-            cursor: pointer;
 
             &:hover {
+                cursor: pointer;
                 color: darkgray;
             }
         }

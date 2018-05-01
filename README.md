@@ -4,8 +4,9 @@
 To provide and create an example vue app. 
 Free unsplash api used
 
-## What?
-* Example minimal webpack build
+## Includes
+* Minimal Webpack Build
+    * Includes production and development builds
 * scss
 * vue
 * vuex 

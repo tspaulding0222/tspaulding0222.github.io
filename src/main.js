@@ -2,7 +2,6 @@ import Vue from 'vue';
 import Vuex from 'vuex'
 import router from './router'
 import App from './App.vue';
-import Unsplash from 'unsplash-js';
 
 Vue.use(Vuex);
 

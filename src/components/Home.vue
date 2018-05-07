@@ -9,17 +9,14 @@
                 <a>About</a>
             </div>
         </div>
-        <unsplash-grid></unsplash-grid>
     </div>
 </template>
 
 <script>
-import UnsplashGrid from './UnsplashGridContainer.vue'
-
 export default {
     name: 'app',
     components: {
-        UnsplashGrid
+        
     }
 }
 </script>

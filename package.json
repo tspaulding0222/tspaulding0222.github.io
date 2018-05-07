@@ -4,7 +4,7 @@
   "description": "tspaulding0222.github.io",
   "main": "index.html",
   "dependencies": {
-    "unsplash-js": "^4.8.0",
+    "npm": "^6.0.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"

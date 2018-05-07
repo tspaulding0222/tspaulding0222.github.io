@@ -1,4 +1,4 @@
-# Example Vue App
+# Personal Page in Vue
 
 ## Links
 
@@ -10,18 +10,17 @@
 
 ## Why?
 
-* To provide and create an example vue app. 
-* Free unsplash api used
+* Get rid of my old host environment of co.nf and use github pages instead
 
 ## Includes
 
-* minimal Webpack Build (Includes production and development builds)
-* scss
-* vue
-* vuex (state management)
-* vue router
-* postCSS (Autoprefixer)
-* babel
+* Webpack Build
+* Scss
+* Vue
+* Vuex (state management)
+* Vue router
+* PostCSS (Autoprefixer)
+* Babel
 
 ## How to Build
 

@@ -1,7 +1,7 @@
 {
   "name": "tspaulding0222.github.io",
   "version": "1.0.0",
-  "description": "Personal Page",
+  "description": "tspaulding0222.github.io",
   "main": "index.html",
   "dependencies": {
     "unsplash-js": "^4.8.0",

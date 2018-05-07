@@ -1,4 +1,4 @@
-# tspaulding0222.github.io
+# Example Vue App
 
 ## Links
 [VueJS](https://vuejs.org/)

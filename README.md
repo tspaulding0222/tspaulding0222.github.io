@@ -15,13 +15,13 @@
 
 ## Includes
 
-* Minimal Webpack Build (Includes production and development builds)
+* minimal Webpack Build (Includes production and development builds)
 * scss
 * vue
 * vuex (state management)
 * vue router
-* PostCSS (Autoprefixer)
-* Babel
+* postCSS (Autoprefixer)
+* babel
 
 ## How to Build
 

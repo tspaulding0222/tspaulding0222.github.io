@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        home
+        Front End Tools
     </div>
 </template>
 

@@ -1,0 +1,9 @@
+$do-hyeon-font: 'Do Hyeon', sans-serif;
+$shadows-font:'Shadows Into Light', cursive, sans-serif;
+$gray: #CECECA;
+
+@mixin center-margin() {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

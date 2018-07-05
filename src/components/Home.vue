@@ -1,40 +1,30 @@
 <template>
     <div class="home">
-        <div class="home-header">
-            <title-header></title-header>
-            <div class="home-header-underline"></div>
-            <div class="home-about">
-                <p class="home-about-content">About Me</p>
+        <div class="hero width-container">
+            Hero Section
+        </div>
+        <div class="skillz">
+            
+        </div>
+        <div class="helix-section">
+            <h2>Helix Section</h2>
+            <div class="helix-image-container">
+                <img src="../../static/img/bg-waves.png">
             </div>
         </div>
-        <div class="home-content">
-            <div class="home-content-text">
-                <p>
-                    I came to appreciate the fields of Mobile/Web Development while working as an Assistant Web Enginerring Technician with the Air Force Institute of Technology.
-                    The things I could make and do within the field astounded me. I love constantly being presented with the opportunity to ascertain new information, increase my
-                    knowledge, and find a new challenge. Since my time with the Air Force Institute of Technology I have honed my programming skills, learned how to work with small
-                    and large teams and work with several different industries such as Carbon Manufacturing, Consulting, Data Warehousing, Education, and Marketing.
-                    friend, a Beagle named Nugget and two cats named Milo and Lucy.
-                </p>
-                <p>
-                    Outside my professional life I enjoy snowboarding, mountain biking, backpacking, camping, and hiking. My immediate family consists of my wife who is also my best friend,
-                    a Beagle named Nugget and two cats named Milo and Lucy.                
-                </p>
-            </div>
-            <div class="home-content-image">
-                <img src="../../static/img/profile-image.png">
-            </div>
+        <div class="callout-section">
+
         </div>
     </div>
 </template>
 
 <script>
-import TitleHeader from './Header.vue';
+
 
 export default {
     name: 'home',
     components: {
-        TitleHeader
+
     }
 }
 </script>
@@ -42,60 +32,42 @@ export default {
 <style lang="scss" scoped>
     @import '../styles/shared.scss';
 
-    .home-header {
-        width: 814px;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .home-header-underline {
-        width: 100%;
-        height: 2px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background-color: $gray;
-    }
-
-    .home-about {
-        position: relative;
-        width: 100%;
-        height: 25px;
-    }
-
-    .home-about-content {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 0;
-        font-family: $do-hyeon-font;
-        font-size: 20px;
-        color: $gray;
-    }
-
-    .home-content {
+    .hero {
         display: flex;
-        flex-direction: row;
-        margin-top: 50px;
-        margin-right: -20px;
+        justify-content: center;
+        align-items: center;
+
+
+        height: 550px;
+        color: white;
+
     }
 
-    .home-content-text {
-        width: 50%;
-        padding-right: 20px;
+    .skillz {
+        height: 650px;
 
-        p {
-            font-size: 1.1em;
-            font-weight: 100;
-            font-family: $do-hyeon-font;
-        }
+        background: #0e071b;
+        background: -moz-linear-gradient(top, #0e071b 0%,#4656a6 8%,#0e071b 50%, #000000 100%);
+        background: -webkit-linear-gradient(top, #0e071b 0%,#4656a6 8%,#0e071b 50%, #000000 100%);
+        background: linear-gradient(to bottom, #0e071b 0%,#4656a6 8%,#0e071b 50%, #000000 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e071b', endColorstr='#0e071b',GradientType=0 );
     }
 
-    .home-content-image {
-        width: 50%;
-        border-radius: 50%;
+    .helix-section {
+        background: #000000;
+    }
+
+    .helix-image-container {
+        width: 100%;
 
         img {
             width: 100%;
         }
     }
+
+    .callout-section {
+        background: #211F30;
+        height: 300px;
+    }
+
 </style>

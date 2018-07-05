@@ -2,7 +2,7 @@
     <div class="width-container">
         <div class="nav-bar">
             <div class="nav-bar-icon">
-                <img src="../../static/img/logo/logo.png">
+                <img src="../../static/img/logo/logoo.png">
             </div>
             <div class="nav-bar-links">
                 <router-link class="active" to="/">Home</router-link>

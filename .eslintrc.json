@@ -1,0 +1,101 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended", "plugin:vue/recommended"],
+    "parserOptions": {
+        "ecmaVersion": 2015
+    },
+    "globals": {
+        "config": false,
+        "require": false,
+        "module": false
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "comma-dangle": ["error", "never"],
+        "camelcase": 2,
+        "eol-last": [
+            "error", "always"
+        ],
+        "no-compare-neg-zero": "error",
+        "getter-return": "error",
+        "no-console":"warn",
+        "no-dupe-args": "error",
+        "no-dupe-keys": "error",
+        "no-duplicate-case": "error",
+        "no-empty": "error",
+        "no-cond-assign": "error",
+        "no-constant-condition": "error",
+        "no-debugger": "error",
+        "no-ex-assign": "error",
+        "no-func-assign": "error",
+        "no-inner-declarations": "error",
+        "no-invalid-regexp": "error",
+        "no-unreachable": "error",
+        "use-isnan": "error",
+        "valid-typeof": "error",
+        "no-empty-function": "error",
+        "no-global-assign": "error",
+        "no-invalid-this": "error",
+        "no-loop-func": "error",
+        "no-redeclare": "error",
+        "no-self-assign": "error",
+        "wrap-iife": "error",
+        "no-undef": "error",
+        "no-unused-vars": "warn",
+        "no-delete-var": "error",
+        "constructor-super": "error",
+        "no-class-assign": "error",
+        "no-dupe-class-members": "error",
+        "no-const-assign": "error",
+        "no-this-before-super": "error",
+        "no-empty-character-class": "warn",
+        "no-control-regex": "warn",
+        "no-extra-boolean-cast": "warn",
+        "no-extra-semi": "warn",
+        "no-irregular-whitespace": "warn",
+        "no-return-assign": "warn",
+        "no-obj-calls": "warn",
+        "no-sparse-arrays": "warn",
+        "no-unexpected-multiline": "warn",
+        "no-unsafe-finally": "warn",
+        "no-unsafe-negation": "warn",
+        "array-callback-return": "warn",
+        "class-methods-use-this": "warn",
+        "no-alert": "warn",
+        "no-unused-labels": "warn",
+        "no-useless-return": "warn",
+        "vue/html-indent": ["warn", 4, {
+            "attribute": 1,
+            "baseIndent": 1,
+            "closeBracket": 0,
+            "alignAttributesVertically": true,
+            "ignores": []
+        }],
+        "vue/mustache-interpolation-spacing": ["error", "always"],
+        "vue/max-attributes-per-line": ["warn", {
+            "singleline": 8,
+            "multiline": {
+              "max": 10,
+              "allowFirstLine": true
+            }
+          }]
+    }
+}

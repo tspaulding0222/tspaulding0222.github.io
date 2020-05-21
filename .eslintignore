@@ -1,0 +1,4 @@
+/dist
+/node_modules
+/src/plugins/myriad-form-validation.js
+**/myriad-neuro-index.js
